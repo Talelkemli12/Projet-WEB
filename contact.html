@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgba(44, 62, 80, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            margin-bottom: 20px; /* Ajout de la marge inférieure */
+        }
+
+        .logo {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .logo img {
+            width: 80px;
+            height: auto;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px; /* Ajout de la marge inférieure */
+        }
+
+        .left-column, .right-column {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .navigation {
+            background-color: #3498db;
+            color: white;
+            padding: 1.5em;
+            text-align: center;
+        }
+
+        .navigation__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navigation__logo img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navigation__list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navigation__list li {
+            margin-right: 30px;
+        }
+
+        .navigation__list a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="Home.html"><img src="logoo.png" alt="Logo"></a>
+        </div>
+        <h1>Mon Portfolio</h1>
+        <ul class="navigation__list">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="left-column">
+            <h2 style="color: #3498db;">Talel Kemli</h2>
+            <p>Goba, Beni Khalled, Nabeul</p>
+            <p>58810580</p>
+            <p>talel.kemli@esprit.tn</p>
+        </div>
+
+        <div class="right-column">
+            <img src="picture.png" alt="Votre Nom">
+        </div>
+    </section>
+
+    <header>
+        <h1 style="color: #3498db; font-size: 1.5em;">Mon CV</h1>
+    </header>
+
+    <!-- Autres sections de votre CV -->
+
+</body>
+</html>
